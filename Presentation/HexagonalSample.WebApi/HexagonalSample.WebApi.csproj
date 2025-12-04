@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <ProjectReference Include="..\HexagonalSample.Domain\HexagonalSample.Domain.csproj">
-		  <PrivateAssets>all</PrivateAssets>
-	  </ProjectReference>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\HexagonalSample.Application\HexagonalSample.Application.csproj" />
   </ItemGroup>
 
 </Project>
